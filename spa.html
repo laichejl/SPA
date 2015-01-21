@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SPA Starter</title>
+
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="css/spa.css">
+        <link rel="stylesheet" href="css/spa.shell.css">
+
+        <!-- third party js -->
+        <script src="js/jq/jquery.js"></script>
+        <script src="js/jq/jquery.urianchor.js"></script>
+
+        <!-- custom scripts -->
+        <script src="js/spa.js"></script>
+        <script src="js/spa.shell.js"></script>
+        <script>
+        	$(function(){ spa.initModule( $('#spa'));});
+        </script>
+        
+    </head>
+    <body>
+        <div id="spa"></div>
+    </body>
+</html>

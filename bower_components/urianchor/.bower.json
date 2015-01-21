@@ -1,0 +1,15 @@
+{
+  "name": "urianchor",
+  "homepage": "https://github.com/mmikowski/urianchor",
+  "version": "1.1.3",
+  "_release": "1.1.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.1.3",
+    "commit": "4764f7dfc1e3c4e3fc31458c84ce091c3b474056"
+  },
+  "_source": "https://github.com/mmikowski/urianchor.git",
+  "_target": "~1.1.3",
+  "_originalSource": "https://github.com/mmikowski/urianchor.git",
+  "_direct": true
+}
