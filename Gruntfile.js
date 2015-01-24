@@ -20,6 +20,12 @@ module.exports = function(grunt){
 			},
 		},
 
+		validation: {
+			files: {
+    			src: ['spa.html', 'layout.html']
+    		}
+		},
+
 		// uglify: {
 		// 	js: {
 		// 		files: {
@@ -32,6 +38,7 @@ module.exports = function(grunt){
 	//grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
+	grunt.loadNpmTasks('grunt-html-validation');
 	//grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.registerTask('default', ['watch']);
 
